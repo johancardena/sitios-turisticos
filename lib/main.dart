@@ -115,16 +115,11 @@ class _TouristScreenState extends State<TouristScreen> {
   ];
 
   Future<void> openMap(double latitude, double longitude) async {
-    final Uri url = Uri.parse(
-      'https://www.google.com/maps/search/?api=1&query=$latitude,$longitude',
-    );
+  final Uri url = Uri.parse(
+    'https://maps.google.com/?q=$latitude,$longitude',
+  );
 
-    if (await canLaunchUrl(url)) {
-      await launchUrl(
-        url,
-        mode: LaunchMode.externalApplication,
-      );
-    }
+  await launchUrl(url);
   }
 
   @override
