@@ -25,14 +25,6 @@ Además, incorpora integración con Google Maps para visualizar la ubicación ex
 
 ## Estructura del Proyecto
 
-lib/
-├── main.dart
-└── models/
-└── tourist_place.dart
-
-assets/
-└── images/
-
 <img width="405" height="419" alt="image" src="https://github.com/user-attachments/assets/c6e1cecc-d8a8-45d9-92e1-d8ebd9c870a0" />
 
 
@@ -59,6 +51,8 @@ La aplicación muestra una lista de diez sitios turísticos con información rel
 
 
 
+<img width="610" height="1356" alt="image" src="https://github.com/user-attachments/assets/e1215a9e-93c5-4957-a0fa-69d96c82755c" />
+
 
 
 
@@ -66,18 +60,26 @@ La aplicación muestra una lista de diez sitios turísticos con información rel
 
 Los usuarios pueden marcar y desmarcar lugares turísticos utilizando el ícono de corazón.
 
+<img width="610" height="1356" alt="image" src="https://github.com/user-attachments/assets/f2fd1508-45ee-41a5-b6c7-4aea484001f0" />
+
+
+
 ### Geolocalización
 
 Cada sitio turístico muestra su latitud y longitud.
+
+<img width="610" height="1356" alt="image" src="https://github.com/user-attachments/assets/561624cc-7bdd-4649-9abb-a1fc6050138b" />
+
+
+
+
 
 ### Integración con Google Maps
 
 Mediante el botón "Ver en Google Maps", el usuario puede abrir directamente la ubicación correspondiente en Google Maps.
 
-## Capturas de Pantalla
 
-
-
+<img width="610" height="1356" alt="image" src="https://github.com/user-attachments/assets/2524b76d-16b9-4f21-aa07-4211fedfe311" />
 
 
 
